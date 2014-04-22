@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346742DD18FDCF9400551D39 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346742DC18FDCF9400551D39 /* Cocoa.framework */; };
+		346742E718FDCF9400551D39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 346742E518FDCF9400551D39 /* InfoPlist.strings */; };
+		346742E918FDCF9400551D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 346742E818FDCF9400551D39 /* main.m */; };
+		346742ED18FDCF9400551D39 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 346742EB18FDCF9400551D39 /* Credits.rtf */; };
+		346742F018FDCF9400551D39 /* PGAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346742EF18FDCF9400551D39 /* PGAAppDelegate.m */; };
+		346742F318FDCF9400551D39 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346742F118FDCF9400551D39 /* MainMenu.xib */; };
+		346742F518FDCF9400551D39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346742F418FDCF9400551D39 /* Images.xcassets */; };
+		3467431118FDCFD300551D39 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3467431018FDCFD300551D39 /* OpenCL.framework */; };
+		3467431318FDD6FA00551D39 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3467431218FDD6FA00551D39 /* WebKit.framework */; };
+		3467431518FDE2C000551D39 /* genetico_serial.c in Sources */ = {isa = PBXBuildFile; fileRef = 3467431418FDE2C000551D39 /* genetico_serial.c */; };
+		3467431918FDFB7F00551D39 /* City.c in Sources */ = {isa = PBXBuildFile; fileRef = 3467431718FDFB7F00551D39 /* City.c */; };
+		3467431B18FE0BFF00551D39 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3467431A18FE0BFF00551D39 /* libxml2.2.dylib */; };
+		3498628B190102C90073E73D /* City_Utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 3498628A190102C90073E73D /* City_Utils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		346742D918FDCF9400551D39 /* parallelTSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parallelTSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		346742DC18FDCF9400551D39 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		346742DF18FDCF9400551D39 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		346742E018FDCF9400551D39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		346742E118FDCF9400551D39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		346742E418FDCF9400551D39 /* parallelTSP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "parallelTSP-Info.plist"; sourceTree = "<group>"; };
+		346742E618FDCF9400551D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		346742E818FDCF9400551D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		346742EA18FDCF9400551D39 /* parallelTSP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "parallelTSP-Prefix.pch"; sourceTree = "<group>"; };
+		346742EC18FDCF9400551D39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		346742EE18FDCF9400551D39 /* PGAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGAAppDelegate.h; sourceTree = "<group>"; };
+		346742EF18FDCF9400551D39 /* PGAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PGAAppDelegate.m; sourceTree = "<group>"; };
+		346742F218FDCF9400551D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		346742F418FDCF9400551D39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		346742FB18FDCF9400551D39 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3467431018FDCFD300551D39 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		3467431218FDD6FA00551D39 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3467431418FDE2C000551D39 /* genetico_serial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genetico_serial.c; sourceTree = "<group>"; };
+		3467431618FDE2CD00551D39 /* genetico_serial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genetico_serial.h; sourceTree = "<group>"; };
+		3467431718FDFB7F00551D39 /* City.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = City.c; sourceTree = "<group>"; };
+		3467431818FDFB7F00551D39 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		3467431A18FE0BFF00551D39 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		34986289190102A80073E73D /* City_Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = City_Utils.h; sourceTree = "<group>"; };
+		3498628A190102C90073E73D /* City_Utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = City_Utils.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346742D618FDCF9400551D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467431B18FE0BFF00551D39 /* libxml2.2.dylib in Frameworks */,
+				3467431318FDD6FA00551D39 /* WebKit.framework in Frameworks */,
+				3467431118FDCFD300551D39 /* OpenCL.framework in Frameworks */,
+				346742DD18FDCF9400551D39 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346742D018FDCF9400551D39 = {
+			isa = PBXGroup;
+			children = (
+				346742E218FDCF9400551D39 /* tsp */,
+				346742DB18FDCF9400551D39 /* Frameworks */,
+				346742DA18FDCF9400551D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		346742DA18FDCF9400551D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346742D918FDCF9400551D39 /* parallelTSP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346742DB18FDCF9400551D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3467431A18FE0BFF00551D39 /* libxml2.2.dylib */,
+				3467431218FDD6FA00551D39 /* WebKit.framework */,
+				3467431018FDCFD300551D39 /* OpenCL.framework */,
+				346742DC18FDCF9400551D39 /* Cocoa.framework */,
+				346742FB18FDCF9400551D39 /* XCTest.framework */,
+				346742DE18FDCF9400551D39 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		346742DE18FDCF9400551D39 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346742DF18FDCF9400551D39 /* AppKit.framework */,
+				346742E018FDCF9400551D39 /* CoreData.framework */,
+				346742E118FDCF9400551D39 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		346742E218FDCF9400551D39 /* tsp */ = {
+			isa = PBXGroup;
+			children = (
+				3467431818FDFB7F00551D39 /* City.h */,
+				3467431718FDFB7F00551D39 /* City.c */,
+				34986289190102A80073E73D /* City_Utils.h */,
+				3498628A190102C90073E73D /* City_Utils.c */,
+				346742EE18FDCF9400551D39 /* PGAAppDelegate.h */,
+				346742EF18FDCF9400551D39 /* PGAAppDelegate.m */,
+				346742F118FDCF9400551D39 /* MainMenu.xib */,
+				346742F418FDCF9400551D39 /* Images.xcassets */,
+				346742E318FDCF9400551D39 /* Supporting Files */,
+				3467431C18FE4FA800551D39 /* genetic_algorithm */,
+			);
+			name = tsp;
+			path = geneticalgorithm;
+			sourceTree = "<group>";
+		};
+		346742E318FDCF9400551D39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				346742E418FDCF9400551D39 /* parallelTSP-Info.plist */,
+				346742E518FDCF9400551D39 /* InfoPlist.strings */,
+				346742E818FDCF9400551D39 /* main.m */,
+				346742EA18FDCF9400551D39 /* parallelTSP-Prefix.pch */,
+				346742EB18FDCF9400551D39 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3467431C18FE4FA800551D39 /* genetic_algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				3467431618FDE2CD00551D39 /* genetico_serial.h */,
+				3467431418FDE2C000551D39 /* genetico_serial.c */,
+			);
+			name = genetic_algorithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346742D818FDCF9400551D39 /* parallelTSP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3467430A18FDCF9500551D39 /* Build configuration list for PBXNativeTarget "parallelTSP" */;
+			buildPhases = (
+				346742D518FDCF9400551D39 /* Sources */,
+				346742D618FDCF9400551D39 /* Frameworks */,
+				346742D718FDCF9400551D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parallelTSP;
+			productName = geneticalgorithm;
+			productReference = 346742D918FDCF9400551D39 /* parallelTSP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346742D118FDCF9400551D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PGA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "ITESM CCM";
+			};
+			buildConfigurationList = 346742D418FDCF9400551D39 /* Build configuration list for PBXProject "parallelTSP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346742D018FDCF9400551D39;
+			productRefGroup = 346742DA18FDCF9400551D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346742D818FDCF9400551D39 /* parallelTSP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346742D718FDCF9400551D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346742E718FDCF9400551D39 /* InfoPlist.strings in Resources */,
+				346742F518FDCF9400551D39 /* Images.xcassets in Resources */,
+				346742ED18FDCF9400551D39 /* Credits.rtf in Resources */,
+				346742F318FDCF9400551D39 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346742D518FDCF9400551D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3467431918FDFB7F00551D39 /* City.c in Sources */,
+				3467431518FDE2C000551D39 /* genetico_serial.c in Sources */,
+				3498628B190102C90073E73D /* City_Utils.c in Sources */,
+				346742E918FDCF9400551D39 /* main.m in Sources */,
+				346742F018FDCF9400551D39 /* PGAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		346742E518FDCF9400551D39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346742E618FDCF9400551D39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		346742EB18FDCF9400551D39 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346742EC18FDCF9400551D39 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		346742F118FDCF9400551D39 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346742F218FDCF9400551D39 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3467430818FDCF9500551D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3467430918FDCF9500551D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3467430B18FDCF9500551D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geneticalgorithm/parallelTSP-Prefix.pch";
+				INFOPLIST_FILE = "geneticalgorithm/parallelTSP-Info.plist";
+				PRODUCT_NAME = parallelTSP;
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3467430C18FDCF9500551D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "geneticalgorithm/parallelTSP-Prefix.pch";
+				INFOPLIST_FILE = "geneticalgorithm/parallelTSP-Info.plist";
+				PRODUCT_NAME = parallelTSP;
+				USER_HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346742D418FDCF9400551D39 /* Build configuration list for PBXProject "parallelTSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467430818FDCF9500551D39 /* Debug */,
+				3467430918FDCF9500551D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3467430A18FDCF9500551D39 /* Build configuration list for PBXNativeTarget "parallelTSP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3467430B18FDCF9500551D39 /* Debug */,
+				3467430C18FDCF9500551D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346742D118FDCF9400551D39 /* Project object */;
+}
